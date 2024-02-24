@@ -364,7 +364,7 @@ class Mythcal:
         self.logger.debug("Adding new entries...")
 
         self.add_programme_events(recordings)
-        self.add_last_updated_event(recordings)
+        #self.add_last_updated_event(recordings)
 
         self.logger.debug("New entries added.")
 

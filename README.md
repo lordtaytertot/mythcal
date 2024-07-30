@@ -1,8 +1,10 @@
 # mythcal
 
-## Getting started
+## tl;dr
 
 ```bash
-sudo dnf install python3.11-devel mariadb-devel
-pip3 install --upgrade lxml mysqlclient pytz google-api-python-client oauth2client
+sudo dnf install chromium python3-pip
+pip3.9 install google-api-python-client --user
+./mythcal --auth
+sudo dnf remove chromium
 ```
